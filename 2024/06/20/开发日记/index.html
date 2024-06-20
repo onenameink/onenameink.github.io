@@ -1,250 +1,302 @@
+
+
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="zh-CN" data-default-color-scheme=auto>
+
+
+
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <meta name="keywords" content="Hexo Theme Keep">
-    <meta name="description" content="Hexo Theme Keep">
-    <meta name="author" content="INK">
-    
-    <title>
-        
-            ceshi |
-        
-        INK的博客
-    </title>
-    
-<link rel="stylesheet" href="/css/style.css">
+  <meta charset="UTF-8">
+  <link rel="apple-touch-icon" sizes="76x76" href="/img/fluid.png">
+  <link rel="icon" href="/img/fluid.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  
+  <meta name="theme-color" content="#2f4154">
+  <meta name="author" content="Yiming Fang">
+  <meta name="keywords" content="">
+  
+    <meta name="description" content="1. @ComponentScan1@ComponentScan(basePackages &#x3D; &#123;&quot;com.shangan&quot;&#125;)  含义@ComponentScan 注解用于指定 Spring 应用程序上下文在初始化时应该扫描的包，以查找和注册 Spring 组件（如 @Component、@Service、@Repository、@Controller 等注解标记的类）。 作">
+<meta property="og:type" content="article">
+<meta property="og:title" content="ceshi">
+<meta property="og:url" content="https://onenameink.github.io/2024/06/20/%E5%BC%80%E5%8F%91%E6%97%A5%E8%AE%B0/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="1. @ComponentScan1@ComponentScan(basePackages &#x3D; &#123;&quot;com.shangan&quot;&#125;)  含义@ComponentScan 注解用于指定 Spring 应用程序上下文在初始化时应该扫描的包，以查找和注册 Spring 组件（如 @Component、@Service、@Repository、@Controller 等注解标记的类）。 作">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://md-picture-fangyiming.oss-cn-beijing.aliyuncs.com/typora/imd/202406111858991.png">
+<meta property="og:image" content="https://md-picture-fangyiming.oss-cn-beijing.aliyuncs.com/typora/imd/202406131257165.png">
+<meta property="article:published_time" content="2024-06-19T17:05:58.000Z">
+<meta property="article:modified_time" content="2024-06-20T04:13:09.599Z">
+<meta property="article:author" content="Yiming Fang">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://md-picture-fangyiming.oss-cn-beijing.aliyuncs.com/typora/imd/202406111858991.png">
+  
+  
+  
+  <title>ceshi - Hexo</title>
 
-    
-        <link rel="shortcut icon" href="/ink_iconofweb.png">
-    
-    
-<link rel="stylesheet" href="/font/css/fontawesome.min.css">
+  <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
-    
-<link rel="stylesheet" href="/font/css/regular.min.css">
 
-    
-<link rel="stylesheet" href="/font/css/solid.min.css">
 
-    
-<link rel="stylesheet" href="/font/css/brands.min.css">
+  <link  rel="stylesheet" href="https://lib.baomitu.com/github-markdown-css/4.0.0/github-markdown.min.css" />
 
-    
-    <script class="keep-theme-configurations">
-    const KEEP = window.KEEP || {}
-    KEEP.hexo_config = {"hostname":"onenameink.github.io","root":"/","language":"zh-CN","path":"search.json"}
-    KEEP.theme_config = {"base_info":{"primary_color":"#74b9ff","title":"INK的博客","author":"INK","avatar":"/ink_wechat.jpg","logo":null,"favicon":"/ink_iconofweb.png"},"menu":{"home":"/主页","archives":"/文件","about":"/about"},"first_screen":{"enable":true,"background_img":"/images/bg.svg","background_img_dark":"/images/bg.svg","description":"Keep writing and Keep loving.","hitokoto":true},"social_contact":{"enable":false,"links":{"github":null,"weixin":null,"qq":null,"weibo":null,"zhihu":null,"twitter":null,"x":null,"facebook":null,"email":null}},"scroll":{"progress_bar":true,"percent":true,"hide_header":true},"home":{"announcement":"这是第一次尝试学习搭建博客，路还很长~","category":true,"tag":true,"post_datetime":"updated","post_datetime_format":"YYYY-MM-DD HH:mm:ss"},"post":{"author_badge":{"enable":true,"level_badge":true,"custom_badge":["One","Two","Three"]},"word_count":{"wordcount":false,"min2read":false},"datetime_format":"YYYY-MM-DD HH:mm:ss","copyright_info":false,"share":false,"reward":{"enable":false,"img_link":null,"text":null}},"code_block":{"tools":{"enable":true,"style":"mac"},"highlight_theme":"default"},"toc":{"enable":true,"number":true,"expand_all":false,"init_open":true,"layout":"right"},"website_count":{"busuanzi_count":{"enable":true,"site_uv":true,"site_pv":true,"page_pv":true}},"local_search":{"enable":true,"preload":true},"comment":{"enable":false,"use":"valine","valine":{"appid":null,"appkey":null,"server_urls":null,"placeholder":null},"gitalk":{"github_id":null,"github_admins":null,"repository":null,"client_id":null,"client_secret":null,"proxy":null},"twikoo":{"env_id":null,"region":null,"version":"1.6.36"},"waline":{"server_url":null,"reaction":false,"version":"3.2.1"},"giscus":{"repo":null,"repo_id":null,"category":"Announcements","category_id":null,"reactions_enabled":false},"artalk":{"server":null},"disqus":{"shortname":null}},"rss":{"enable":false},"lazyload":{"enable":true},"cdn":{"enable":false,"provider":"cdnjs"},"pjax":{"enable":true},"footer":{"since":2024,"word_count":true,"site_deploy":{"enable":true,"provider":"github","url":null},"record":{"enable":false,"list":[{"code":null,"link":null}]}},"inject":{"enable":false,"css":[null],"js":[null]},"root":"","source_data":{},"version":"4.1.3"}
-    KEEP.language_ago = {"second":"%s 秒前","minute":"%s 分钟前","hour":"%s 小时前","day":"%s 天前","week":"%s 周前","month":"%s 个月前","year":"%s 年前"}
-    KEEP.language_code_block = {"copy":"复制代码","copied":"已复制","fold":"折叠代码块","folded":"已折叠"}
-    KEEP.language_copy_copyright = {"copy":"复制版权信息","copied":"已复制","title":"原文标题","author":"原文作者","link":"原文链接"}
+  <link  rel="stylesheet" href="https://lib.baomitu.com/hint.css/2.7.0/hint.min.css" />
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/fancybox/3.5.7/jquery.fancybox.min.css" />
+
+
+
+<!-- 主题依赖的图标库，不要自行修改 -->
+<!-- Do not modify the link that theme dependent icons -->
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1749284_hj8rtnfg7um.css">
+
+
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1736178_lbnruvf0jn.css">
+
+
+<link  rel="stylesheet" href="/css/main.css" />
+
+
+  <link id="highlight-css" rel="stylesheet" href="/css/highlight.css" />
+  
+    <link id="highlight-css-dark" rel="stylesheet" href="/css/highlight-dark.css" />
+  
+
+
+
+  
+<link rel="stylesheet" href="/css/custom.css">
+
+
+
+  <script id="fluid-configs">
+    var Fluid = window.Fluid || {};
+    Fluid.ctx = Object.assign({}, Fluid.ctx)
+    var CONFIG = {"hostname":"onenameink.github.io","root":"/","version":"1.9.7","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":""},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":false,"follow_dnt":true,"baidu":null,"google":{"measurement_id":null},"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false}},"search_path":"/local-search.xml","include_content_in_search":true};
+
+    if (CONFIG.web_analytics.follow_dnt) {
+      var dntVal = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
+      Fluid.ctx.dnt = dntVal && (dntVal.startsWith('1') || dntVal.startsWith('yes') || dntVal.startsWith('on'));
+    }
   </script>
-<meta name="generator" content="Hexo 7.2.0"></head>
+  <script  src="/js/utils.js" ></script>
+  <script  src="/js/color-schema.js" ></script>
+  
+
+
+  <!-- 引入 Prism.js 样式和脚本 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.28.0/themes/prism-tomorrow.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.28.0/plugins/line-numbers/prism-line-numbers.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.28.0/plugins/toolbar/prism-toolbar.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.28.0/prism.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.28.0/plugins/line-numbers/prism-line-numbers.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.28.0/plugins/show-language/prism-show-language.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.28.0/plugins/toolbar/prism-toolbar.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.28.0/plugins/copy-to-clipboard/prism-copy-to-clipboard.min.js"></script>
+
+  
+<meta name="generator" content="Hexo 7.2.0"><link rel="stylesheet" href="/css/prism.css" type="text/css"></head>
 
 
 <body>
-<div class="progress-bar-container">
-    
-        <span class="scroll-progress-bar"></span>
-    
+  
 
-    
-        <span class="pjax-progress-bar"></span>
-        <i class="pjax-progress-icon fas fa-circle-notch fa-spin"></i>
-    
-</div>
-
-
-
-<main class="page-container border-box">
-    <!-- home first screen  -->
+  <header>
     
 
-    <!-- page content -->
-    <div class="page-main-content border-box">
-        <div class="page-main-content-top">
-            
-<header class="header-wrapper">
+<div class="header-inner" style="height: 70vh;">
+  <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
+  <div class="container">
+    <a class="navbar-brand" href="/">
+      <strong>Fluid</strong>
+    </a>
 
-    <div class="border-box header-content">
-        <div class="left border-box">
-            
-            <a class="site-name border-box" href="/">
-               INK的博客
+    <button id="navbar-toggler-btn" class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <div class="animated-icon"><span></span><span></span><span></span></div>
+    </button>
+
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto text-center">
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/" target="_self">
+                <i class="iconfont icon-home-fill"></i>
+                <span>首页</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/archives/" target="_self">
+                <i class="iconfont icon-archive-fill"></i>
+                <span>归档</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/categories/" target="_self">
+                <i class="iconfont icon-category-fill"></i>
+                <span>分类</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/tags/" target="_self">
+                <i class="iconfont icon-tags-fill"></i>
+                <span>标签</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/about/" target="_self">
+                <i class="iconfont icon-user-fill"></i>
+                <span>关于</span>
+              </a>
+            </li>
+          
+        
+        
+          <li class="nav-item" id="search-btn">
+            <a class="nav-link" target="_self" href="javascript:;" data-toggle="modal" data-target="#modalSearch" aria-label="Search">
+              <i class="iconfont icon-search"></i>
             </a>
+          </li>
+          
+        
+        
+          <li class="nav-item" id="color-toggle-btn">
+            <a class="nav-link" target="_self" href="javascript:;" aria-label="Color Toggle">
+              <i class="iconfont icon-dark" id="color-toggle-icon"></i>
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+  
+
+<div id="banner" class="banner" parallax=true
+     style="background: url('/img/default.png') no-repeat center center; background-size: cover;">
+  <div class="full-bg-img">
+    <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
+      <div class="banner-text text-center fade-in-up">
+        <div class="h2">
+          
+            <span id="subtitle" data-typed-text="ceshi"></span>
+          
         </div>
 
-        <div class="right border-box">
-            <div class="pc">
-                <ul class="menu-list">
-                    
-                        
-                        <li class="menu-item">
-                            <a class=""
-                               href="/%E4%B8%BB%E9%A1%B5"
-                            >
-                                
-                                首页
-                            </a>
-                        </li>
-                    
-                        
-                        <li class="menu-item">
-                            <a class=""
-                               href="/%E6%96%87%E4%BB%B6"
-                            >
-                                
-                                归档
-                            </a>
-                        </li>
-                    
-                        
-                        <li class="menu-item">
-                            <a class=""
-                               href="/about"
-                            >
-                                
-                                关于
-                            </a>
-                        </li>
-                    
-                    
-                        <li class="menu-item search search-popup-trigger">
-                            <i class="fas search fa-search"></i>
-                        </li>
-                    
-                </ul>
-            </div>
-            <div class="mobile">
-                
-                    <div class="icon-item search search-popup-trigger"><i class="fas fa-search"></i></div>
-                
-                <div class="icon-item menu-bar">
-                    <div class="menu-bar-middle"></div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="header-drawer">
-        <ul class="drawer-menu-list">
-            
-                
-                <li class="drawer-menu-item flex-center">
-                    <a class=""
-                       href="/%E4%B8%BB%E9%A1%B5"
-                    >首页</a>
-                </li>
-            
-                
-                <li class="drawer-menu-item flex-center">
-                    <a class=""
-                       href="/%E6%96%87%E4%BB%B6"
-                    >归档</a>
-                </li>
-            
-                
-                <li class="drawer-menu-item flex-center">
-                    <a class=""
-                       href="/about"
-                    >关于</a>
-                </li>
-            
-        </ul>
-    </div>
-
-    <div class="window-mask"></div>
-
-</header>
-
-
-        </div>
-
-        <div class="page-main-content-middle border-box">
-
-            <div class="main-content border-box">
-                
-
-                    
-<div class="fade-in-down-animation">
-    <div class="post-page-container border-box">
-        <div class="post-content-container border-box">
-            
-
-            <div class="post-content-bottom border-box">
-                
-                    <div class="post-title">
-                        ceshi
-                    </div>
-                
-
-                
-                    <div class="post-header border-box">
-                        
-                            <div class="avatar-box border-box">
-                                <img src="/ink_wechat.jpg">
-                            </div>
-                        
-                        <div class="info-box">
-                            <div class="author border-box">
-                                <span class="name">INK</span>
-                                
-                                    <span class="author-badge">Lv1</span>
-                                
-                            </div>
-                            <div class="meta-info border-box">
-                                
-
-<div class="post-meta-info-container border-box post">
-    <div class="post-meta-info border-box">
         
+          
+  <div class="mt-3">
+    
+    
+      <span class="post-meta">
+        <i class="iconfont icon-date-fill" aria-hidden="true"></i>
+        <time datetime="2024-06-20 01:05" pubdate>
+          2024年6月20日 凌晨
+        </time>
+      </span>
+    
+  </div>
 
+  <div class="mt-1">
+    
+      <span class="post-meta mr-2">
+        <i class="iconfont icon-chart"></i>
         
-            <span class="meta-info-item post-create-date">
-                <i class="icon fa-solid fa-calendar-plus"></i>&nbsp;
-                <span class="datetime">2024-06-20 01:05:58</span>
-            </span>
-
-            <span class="meta-info-item post-update-date">
-                <i class="icon fa-solid fa-file-pen"></i>&nbsp;
-                <span class="datetime" data-updated="Thu Jun 20 2024 12:13:09 GMT+0800">2024-06-20 12:13:09</span>
-            </span>
+          5.8k 字
         
-
-        
-
-        
-
-        
-        
-        
-        
-            <span class="meta-info-item post-pv">
-                <i class="icon fas fa-eye"></i>&nbsp;<span id="busuanzi_value_page_pv"></span>
-            </span>
-        
-    </div>
+      </span>
+    
 
     
+      <span class="post-meta mr-2">
+        <i class="iconfont icon-clock-fill"></i>
+        
+        
+        
+          49 分钟
+        
+      </span>
+    
+
+    
+    
+  </div>
+
+
+        
+      </div>
+
+      
+    </div>
+  </div>
 </div>
 
-                            </div>
-                        </div>
-                    </div>
+</div>
+
+  </header>
+
+  <main>
+    
+      
+
+<div class="container-fluid nopadding-x">
+  <div class="row nomargin-x">
+    <div class="side-col d-none d-lg-block col-lg-2">
+      
+
+    </div>
+
+    <div class="col-lg-8 nopadding-x-md">
+      <div class="container nopadding-x-md" id="board-ctn">
+        <div id="board">
+          <article class="post-content mx-auto">
+            <h1 id="seo-header">ceshi</h1>
+            
+            
+              <div class="markdown-body">
                 
-
-                <div class="post-content keep-markdown-body ">
-                    
-
-                    <h3 id="1-ComponentScan"><a href="#1-ComponentScan" class="headerlink" title="1. @ComponentScan"></a>1. @ComponentScan</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">@ComponentScan(basePackages = &#123;&quot;com.shangan&quot;&#125;)</span></span><br></pre></td></tr></table></figure>
+                <h3 id="1-ComponentScan"><a href="#1-ComponentScan" class="headerlink" title="1. @ComponentScan"></a>1. @ComponentScan</h3><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="JAVA"><figure class="iseeu highlight /java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre class=" language-hljs java"><span class="hljs-meta"><code class="language-hljs java"><span class="hljs-meta">@ComponentScan(basePackages = &#123;"com.shangan"&#125;)</span><br></code></pre></td></tr></table></figure></div>
 
 <h4 id="含义"><a href="#含义" class="headerlink" title="含义"></a>含义</h4><p><code>@ComponentScan</code> 注解用于指定 Spring 应用程序上下文在初始化时应该扫描的包，以查找和注册 Spring 组件（如 <code>@Component</code>、<code>@Service</code>、<code>@Repository</code>、<code>@Controller</code> 等注解标记的类）。</p>
 <h4 id="作用"><a href="#作用" class="headerlink" title="作用"></a>作用</h4><ul>
 <li><strong>包扫描</strong>：扫描 <code>com.shangan</code> 包及其子包中的所有类，寻找标记了 Spring 组件注解的类，并将它们注册到 Spring 应用上下文中。</li>
 <li><strong>自动装配</strong>：通过自动装配（Autowiring）机制，可以在应用程序的其他部分（如 Service 层、Controller 层等）中自动注入这些组件。</li>
 </ul>
-<h3 id="2-MapperScan"><a href="#2-MapperScan" class="headerlink" title="2. @MapperScan"></a>2. @MapperScan</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">@MapperScan(&#123;&quot;com.shangan.trade.coupon.db.mappers&quot;&#125;)</span></span><br></pre></td></tr></table></figure>
+<h3 id="2-MapperScan"><a href="#2-MapperScan" class="headerlink" title="2. @MapperScan"></a>2. @MapperScan</h3><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="JAVA"><figure class="iseeu highlight /java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre class=" language-hljs java"><span class="hljs-meta"><code class="language-hljs java"><span class="hljs-meta">@MapperScan(&#123;"com.shangan.trade.coupon.db.mappers"&#125;)</span><br></code></pre></td></tr></table></figure></div>
 
 <h4 id="含义-1"><a href="#含义-1" class="headerlink" title="含义"></a>含义</h4><p><code>@MapperScan</code> 注解用于指定 MyBatis 应该扫描的包，以查找和注册 MyBatis 的 Mapper 接口。</p>
 <h4 id="作用-1"><a href="#作用-1" class="headerlink" title="作用"></a>作用</h4><ul>
@@ -275,11 +327,11 @@
 <p>OpenFeign：</p>
 <p>加依赖（OpenFeign和loadBalancer的）；启动类注解@EnableFeignClients；新建Client接口来声明查询的函数。</p>
 <p>在接口中（接口不用实现，由openfeign自动实现）</p>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">@FeignClient(&quot;item-service&quot;)</span><span class="comment">//声明服务名称</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">interface</span> <span class="title class_">ItemClient</span> &#123;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@GetMapping(&quot;/items&quot;)</span><span class="comment">//借用mvc注解，表面这是http的get请求。</span></span><br><span class="line">    <span class="comment">//请求路径：/items</span></span><br><span class="line">    List&lt;ItemDTO&gt; <span class="title function_">queryItemByIds</span><span class="params">(<span class="meta">@RequestParam(&quot;ids&quot;)</span> Collection&lt;Long&gt; ids)</span>;</span><br><span class="line">    <span class="comment">//List&lt;ItemDTO&gt;声明返回参数，openfeign会将收到的json转为该格式</span></span><br><span class="line">    <span class="comment">//@RequestParam(&quot;ids&quot;)声明请求参数，即路径中有ids</span></span><br><span class="line">    <span class="comment">//Collection&lt;Long&gt; ids传入的数据</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="JAVA"><figure class="iseeu highlight /java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre class=" language-hljs java"><span class="hljs-meta">@FeignClient(&quot;item-service&quot;)</span><span class="hljs-comment">//声明服务名称</span><br><span class="hljs-keyword">public</span> <span class="hljs-keyword">interface</span> <span class="hljs-title class_">ItemClient</span> &#123;<br><br>    <span class="hljs-meta">@GetMapping(&quot;/items&quot;)</span><span class="hljs-comment">//借用mvc注解，表面这是http的get请求。</span><br>    <span class="hljs-comment">//请求路径：/items</span><br>    List&lt;ItemDTO&gt; <span class="hljs-title function_">queryItemByIds</span><span class="hljs-params">(<span class="hljs-meta">@RequestParam(&quot;ids&quot;)</span> Collection&lt;Long&gt; ids)</span>;<br>    <span class="hljs-comment">//List&lt;ItemDTO&gt;声明返回参数，openfeign会将收到的json转为该格式</span><br>    <span class="hljs-comment">//@RequestParam(&quot;ids&quot;)声明请求参数，即路径中有ids</span><br>    <span class="hljs-comment"><code class="language-hljs java"><span class="hljs-meta">@FeignClient(&quot;item-service&quot;)</span><span class="hljs-comment">//声明服务名称</span><br><span class="hljs-keyword">public</span> <span class="hljs-keyword">interface</span> <span class="hljs-title class_">ItemClient</span> &#123;<br><br>    <span class="hljs-meta">@GetMapping(&quot;/items&quot;)</span><span class="hljs-comment">//借用mvc注解，表面这是http的get请求。</span><br>    <span class="hljs-comment">//请求路径：/items</span><br>    List&lt;ItemDTO&gt; <span class="hljs-title function_">queryItemByIds</span><span class="hljs-params">(<span class="hljs-meta">@RequestParam(&quot;ids&quot;)</span> Collection&lt;Long&gt; ids)</span>;<br>    <span class="hljs-comment">//List&lt;ItemDTO&gt;声明返回参数，openfeign会将收到的json转为该格式</span><br>    <span class="hljs-comment">//@RequestParam(&quot;ids&quot;)声明请求参数，即路径中有ids</span><br>    <span class="hljs-comment">//Collection<Long> ids传入的数据</span><br>&#125;<br></code></pre></td></tr></table></figure></div>
 
 <p>这样OpenFeign便替代原来discoveryclient和restTemplate的作用，来首先向注册中心请求实例列表，然后负载均衡选择实例，然后发送http请求，然后将收到信息转化为对应形式，这样便完成了微服务之间数据的调用。</p>
 <p>实际使用只需注入ItemClient，然后使用queryItemByIds即可</p>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">List&lt;ItemDTO&gt; items = itemClient.queryItemByIds(itemIds);</span><br></pre></td></tr></table></figure>
+<div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="JAVA"><figure class="iseeu highlight /java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre class=" language-hljs java"><code class="language-hljs java">List<ItemDTO> items = itemClient.queryItemByIds(itemIds);<br></code></pre></td></tr></table></figure></div>
 
 <h4 id="连接池"><a href="#连接池" class="headerlink" title="连接池"></a>连接池</h4><p>减少创建连接销毁连接带来的损耗。</p>
 <p>默认feign发http请求不带连接池，所以可以换成okhttp来提升响应速度。</p>
@@ -290,7 +342,7 @@
 <p>jwt的库要加进去</p>
 <p>nacos要打开</p>
 <p>运行要选择local sql</p>
-<h3 id="7-网关的登录校验思路"><a href="#7-网关的登录校验思路" class="headerlink" title="7.网关的登录校验思路"></a>7.网关的登录校验思路</h3><p><img   src="https://md-picture-fangyiming.oss-cn-beijing.aliyuncs.com/typora/imd/202406111858991.png"  alt="image-20240609122541465"></p>
+<h3 id="7-网关的登录校验思路"><a href="#7-网关的登录校验思路" class="headerlink" title="7.网关的登录校验思路"></a>7.网关的登录校验思路</h3><p><img src="https://md-picture-fangyiming.oss-cn-beijing.aliyuncs.com/typora/imd/202406111858991.png" srcset="/img/loading.gif" lazyload alt="image-20240609122541465"></p>
 <p>handlemapping实现是基于路由断言来做匹配的，基于配置的断言与前端请求匹配，找到合适的路由，然后存入上下文</p>
 <p>1.如何在网关自定义过滤器并控制顺序；<br>2.如何在网关中进行登录校验<br>3.如何把网关的用户信息传递给微服务（使用网关api进行）<br>4.如何在微服务之间传递用户信息（使用feign进行）</p>
 <p>网关中有很多过滤器（默认的与需配置的），过滤器生效与不生效是不一定的，filteringwebhandler作用在于找到生效的过滤器，进行排序，并依次执行</p>
@@ -298,7 +350,7 @@
 <p>过滤器内部有pre和post两个部分，请求会先执行过滤器中的pre部分，若失败，则直接结束，请求也不会被转发，只有pre逻辑执行成功情况下，才会调用执行下一个pre逻辑，依次向下执行，</p>
 <p>因此要通过网关实现登录校验，需要自定义过滤器实现校验逻辑，并且需要在nettyroutingfilter之前的pre部分进行，这样才可以在校验失败时，报错。从而不会转发。</p>
 <p>如何把网关得到的用户信息传递给微服务：由于使用http发，因此可以在请求头中写用户信息来传递。传统的threadlocal不可以，因为是微服务，单个服务用一个tomcat服务器，threadlocal只能在tomcat内部的线程之间共享，因此无法使用threadlocal来共享。</p>
-<h3 id="8-ConfigurationProperties注解报错"><a href="#8-ConfigurationProperties注解报错" class="headerlink" title="8.ConfigurationProperties注解报错"></a>8.ConfigurationProperties注解报错</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">@ConfigurationProperties</span></span><br></pre></td></tr></table></figure>
+<h3 id="8-ConfigurationProperties注解报错"><a href="#8-ConfigurationProperties注解报错" class="headerlink" title="8.ConfigurationProperties注解报错"></a>8.ConfigurationProperties注解报错</h3><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="JAVA"><figure class="iseeu highlight /java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre class=" language-hljs java"><span class="hljs-meta"><code class="language-hljs java"><span class="hljs-meta">@ConfigurationProperties</span><br></code></pre></td></tr></table></figure></div>
 
 <p>Not registered via @EnableConfigurationProperties, marked as Spring component, or scanned via @ConfigurationPropertiesScan</p>
 <h3 id="9-nginx"><a href="#9-nginx" class="headerlink" title="9.nginx"></a>9.nginx</h3><p>使用nginx，因此前端都是通过18080端口访问nginx服务器，这样来访问网关以及服务。</p>
@@ -322,7 +374,7 @@
 <p>2）拦截器有pre和after部分，pre是存用户信息，after是删除。需注意pre要先判断用户信息是否为空（用户登陆时不会拦截，因此用户信息可能为空，拦截器也需要考虑这种情况）。</p>
 <p>3）mvc配置类写完后，还需要自动注入</p>
 <p>Spring Boot 的自动配置机制是会扫描所有父类的spring.factories，然后加载里面的所有配置类</p>
-<p><img   src="https://md-picture-fangyiming.oss-cn-beijing.aliyuncs.com/typora/imd/202406131257165.png"  alt="image-20240613125737034"></p>
+<p><img src="https://md-picture-fangyiming.oss-cn-beijing.aliyuncs.com/typora/imd/202406131257165.png" srcset="/img/loading.gif" lazyload alt="image-20240613125737034"></p>
 <p>微服务内部同一个线程来回调，所以保存到threadlocal来保存用户信息。</p>
 <p>微服务调用spring mvc拦截器来拦截请求。</p>
 <p>feign拦截器会在每一次请求时生效。</p>
@@ -354,7 +406,7 @@
 </li>
 <li><p>派生注解</p>
 <p>：</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">@Component</span><br></pre></td></tr></table></figure>
+<div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="ASPECTJ"><figure class="iseeu highlight /aspectj"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre class=" language-hljs aspectj"><span class="hljs-meta"><code class="language-hljs aspectj"><span class="hljs-meta">@Component</span><br></code></pre></td></tr></table></figure></div>
 
 <p> 还有几个特定用途的派生注解：</p>
 <ul>
@@ -365,7 +417,7 @@
 </li>
 </ul>
 <p><strong>示例</strong>：</p>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line">java复制代码<span class="meta">@Component</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">MyComponent</span> &#123;</span><br><span class="line">    <span class="comment">// 组件逻辑</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="meta">@Service</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">MyService</span> &#123;</span><br><span class="line">    <span class="comment">// 服务逻辑</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="meta">@Repository</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">MyRepository</span> &#123;</span><br><span class="line">    <span class="comment">// 数据访问逻辑</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="meta">@Controller</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">MyController</span> &#123;</span><br><span class="line">    <span class="comment">// 控制器逻辑</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="JAVA"><figure class="iseeu highlight /java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre class=" language-hljs java">java复制代码<span class="hljs-meta">@Component</span><br><span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">MyComponent</span> &#123;<br>    <span class="hljs-comment">// 组件逻辑</span><br>&#125;<br><br><span class="hljs-meta">@Service</span><br><span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">MyService</span> &#123;<br>    <span class="hljs-comment">// 服务逻辑</span><br>&#125;<br><br><span class="hljs-meta">@Repository</span><br><span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">MyRepository</span> &#123;<br>    <span class="hljs-comment">// 数据访问逻辑</span><br>&#125;<br><br><span class="hljs-meta">@Controller</span><br><span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">MyController</span> &#123;<br>    <span class="hljs-comment"><code class="language-hljs java">java复制代码<span class="hljs-meta">@Component</span><br><span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">MyComponent</span> &#123;<br>    <span class="hljs-comment">// 组件逻辑</span><br>&#125;<br><br><span class="hljs-meta">@Service</span><br><span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">MyService</span> &#123;<br>    <span class="hljs-comment">// 服务逻辑</span><br>&#125;<br><br><span class="hljs-meta">@Repository</span><br><span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">MyRepository</span> &#123;<br>    <span class="hljs-comment">// 数据访问逻辑</span><br>&#125;<br><br><span class="hljs-meta">@Controller</span><br><span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">MyController</span> &#123;<br>    <span class="hljs-comment">// 控制器逻辑</span><br>&#125;<br></code></pre></td></tr></table></figure></div>
 </li>
 <li><p><strong>使用 <code>@Configuration</code> 和 <code>@Bean</code> 注解</strong>：</p>
 <ul>
@@ -373,14 +425,14 @@
 <li><code>@Bean</code> 注解用于方法上，表示该方法的返回值是一个 Spring Bean，该方法通常用于创建复杂的对象或外部库的实例。</li>
 </ul>
 <p><strong>示例</strong>：</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">java复制代码@Configuration</span><br><span class="line">public class AppConfig &#123;</span><br><span class="line"></span><br><span class="line">    @Bean</span><br><span class="line">    public MyBean myBean() &#123;</span><br><span class="line">        return new MyBean();</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="HAXE"><figure class="iseeu highlight /haxe"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre class=" language-hljs haxe">java复制代码<span class="hljs-meta">@Configuration</span><br><span class="hljs-keyword">public</span> <span class="hljs-title class_"><span class="hljs-keyword">class</span> <span class="hljs-title">AppConfig</span> </span>&#123;<br><br>    <span class="hljs-meta">@Bean</span><br>    <span class="hljs-keyword">public</span> MyBean myBean() &#123;<br>        <span class="hljs-keyword">return</span> <span class="hljs-keyword">new</span> <span class="hljs-type"><code class="language-hljs haxe">java复制代码<span class="hljs-meta">@Configuration</span><br><span class="hljs-keyword">public</span> <span class="hljs-title class_"><span class="hljs-keyword">class</span> <span class="hljs-title">AppConfig</span> </span>&#123;<br><br>    <span class="hljs-meta">@Bean</span><br>    <span class="hljs-keyword">public</span> MyBean myBean() &#123;<br>        <span class="hljs-keyword">return</span> <span class="hljs-keyword">new</span> <span class="hljs-type">MyBean</span>();<br>    &#125;<br>&#125;<br></code></pre></td></tr></table></figure></div>
 </li>
 <li><p><strong>通过 XML 配置</strong>（传统方式）：</p>
 <ul>
 <li>在 Spring 的 XML 配置文件中，可以使用 <code>&lt;bean&gt;</code> 元素定义 Spring Bean。</li>
 </ul>
 <p><strong>示例</strong>：</p>
-<figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">beans</span> <span class="attr">xmlns</span>=<span class="string">&quot;http://www.springframework.org/schema/beans&quot;</span></span></span><br><span class="line"><span class="tag">       <span class="attr">xmlns:xsi</span>=<span class="string">&quot;http://www.w3.org/2001/XMLSchema-instance&quot;</span></span></span><br><span class="line"><span class="tag">       <span class="attr">xsi:schemaLocation</span>=<span class="string">&quot;http://www.springframework.org/schema/beans</span></span></span><br><span class="line"><span class="string"><span class="tag">                           http://www.springframework.org/schema/beans/spring-beans.xsd&quot;</span>&gt;</span></span><br><span class="line"></span><br><span class="line">    <span class="tag">&lt;<span class="name">bean</span> <span class="attr">id</span>=<span class="string">&quot;myBean&quot;</span> <span class="attr">class</span>=<span class="string">&quot;com.example.MyBean&quot;</span>/&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">beans</span>&gt;</span></span><br></pre></td></tr></table></figure></li>
+<div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="XML"><figure class="iseeu highlight /xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre class=" language-hljs xml"><span class="hljs-tag">&lt;<span class="hljs-name">beans</span> <span class="hljs-attr">xmlns</span>=<span class="hljs-string">&quot;http://www.springframework.org/schema/beans&quot;</span></span><br><span class="hljs-tag">       <span class="hljs-attr">xmlns:xsi</span>=<span class="hljs-string">&quot;http://www.w3.org/2001/XMLSchema-instance&quot;</span></span><br><span class="hljs-tag">       <span class="hljs-attr">xsi:schemaLocation</span>=<span class="hljs-string">&quot;http://www.springframework.org/schema/beans</span></span><br><span class="hljs-string"><span class="hljs-tag">                           http://www.springframework.org/schema/beans/spring-beans.xsd&quot;</span>&gt;</span><br><br>    <span class="hljs-tag">&lt;<span class="hljs-name">bean</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;myBean&quot;</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;com.example.MyBean&quot;</span>/&gt;</span><br><span class="hljs-tag">&lt;/<span class="hljs-name"><code class="language-hljs xml"><span class="hljs-tag">&lt;<span class="hljs-name">beans</span> <span class="hljs-attr">xmlns</span>=<span class="hljs-string">&quot;http://www.springframework.org/schema/beans&quot;</span></span><br><span class="hljs-tag">       <span class="hljs-attr">xmlns:xsi</span>=<span class="hljs-string">&quot;http://www.w3.org/2001/XMLSchema-instance&quot;</span></span><br><span class="hljs-tag">       <span class="hljs-attr">xsi:schemaLocation</span>=<span class="hljs-string">&quot;http://www.springframework.org/schema/beans</span></span><br><span class="hljs-string"><span class="hljs-tag">                           http://www.springframework.org/schema/beans/spring-beans.xsd&quot;</span>&gt;</span><br><br>    <span class="hljs-tag">&lt;<span class="hljs-name">bean</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;myBean&quot;</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;com.example.MyBean&quot;</span>/&gt;</span><br><span class="hljs-tag">&lt;/<span class="hljs-name">beans</span>></span><br></code></pre></td></tr></table></figure></div></li>
 </ol>
 <h3 id="16-spring-factories"><a href="#16-spring-factories" class="headerlink" title="16.spring.factories"></a>16.spring.factories</h3><p><code>spring.factories</code> 文件在 Spring Boot 中的主要作用是进行自动配置，而不是直接声明 Spring Bean。但是，通过在 <code>spring.factories</code> 文件中声明自动配置类（通常带有 <code>@Configuration</code> 注解的类），可以间接地声明和注册 Spring Bean。</p>
 <p><code>spring.factories</code> 文件用于指定一些带有 <code>@Configuration</code> 注解的配置类，这些配置类在 Spring Boot 启动时会被自动加载，并且其中的 <code>@Bean</code> 方法会生成并注册 Spring Bean。</p>
@@ -410,10 +462,10 @@
 <li>通过在 <code>spring.factories</code> 文件中声明自动配置类，Spring Boot 会在启动时加载并应用这些配置类。</li>
 </ul>
 <p><strong>示例</strong>：</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">properties复制代码# META-INF/spring.factories</span><br><span class="line">org.springframework.boot.autoconfigure.EnableAutoConfiguration=\</span><br><span class="line">com.example.config.MyAutoConfiguration</span><br></pre></td></tr></table></figure>
+<div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="STATA"><figure class="iseeu highlight /stata"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre class=" language-hljs stata">properties复制代码# <span class="hljs-keyword">META</span>-<span class="hljs-keyword">INF</span>/spring.factories<br>org.springframework.<span class="hljs-keyword"><code class="language-hljs stata">properties复制代码# <span class="hljs-keyword">META</span>-<span class="hljs-keyword">INF</span>/spring.factories<br>org.springframework.<span class="hljs-keyword">boot</span>.autoconfigure.EnableAutoConfiguration=\<br>com.example.config.MyAutoConfiguration<br></code></pre></td></tr></table></figure></div>
 
 <p><strong>自动配置类</strong>：</p>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">package</span> com.example.config;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> org.springframework.context.annotation.Bean;</span><br><span class="line"><span class="keyword">import</span> org.springframework.context.annotation.Configuration;</span><br><span class="line"></span><br><span class="line"><span class="meta">@Configuration</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">MyAutoConfiguration</span> &#123;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@Bean</span></span><br><span class="line">    <span class="keyword">public</span> MyService <span class="title function_">myService</span><span class="params">()</span> &#123;</span><br><span class="line">        <span class="keyword">return</span> <span class="keyword">new</span> <span class="title class_">MyService</span>();</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="JAVA"><figure class="iseeu highlight /java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre class=" language-hljs java"><span class="hljs-keyword">package</span> com.example.config;<br><br><span class="hljs-keyword">import</span> org.springframework.context.annotation.Bean;<br><span class="hljs-keyword">import</span> org.springframework.context.annotation.Configuration;<br><br><span class="hljs-meta">@Configuration</span><br><span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">MyAutoConfiguration</span> &#123;<br><br>    <span class="hljs-meta">@Bean</span><br>    <span class="hljs-keyword">public</span> MyService <span class="hljs-title function_">myService</span><span class="hljs-params">()</span> &#123;<br>        <span class="hljs-keyword">return</span> <span class="hljs-keyword">new</span> <span class="hljs-title class_"><code class="language-hljs java"><span class="hljs-keyword">package</span> com.example.config;<br><br><span class="hljs-keyword">import</span> org.springframework.context.annotation.Bean;<br><span class="hljs-keyword">import</span> org.springframework.context.annotation.Configuration;<br><br><span class="hljs-meta">@Configuration</span><br><span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">MyAutoConfiguration</span> &#123;<br><br>    <span class="hljs-meta">@Bean</span><br>    <span class="hljs-keyword">public</span> MyService <span class="hljs-title function_">myService</span><span class="hljs-params">()</span> &#123;<br>        <span class="hljs-keyword">return</span> <span class="hljs-keyword">new</span> <span class="hljs-title class_">MyService</span>();<br>    &#125;<br>&#125;<br></code></pre></td></tr></table></figure></div>
 </li>
 <li><p><strong>使用 <code>@Configuration</code> 注解</strong>：</p>
 <ul>
@@ -421,7 +473,7 @@
 <li>配置类可以包含一个或多个 <code>@Bean</code> 方法，用于定义 Spring Bean。</li>
 </ul>
 <p><strong>示例</strong>：</p>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">@Configuration</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">AppConfig</span> &#123;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@Bean</span></span><br><span class="line">    <span class="keyword">public</span> MyBean <span class="title function_">myBean</span><span class="params">()</span> &#123;</span><br><span class="line">        <span class="keyword">return</span> <span class="keyword">new</span> <span class="title class_">MyBean</span>();</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="JAVA"><figure class="iseeu highlight /java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre class=" language-hljs java"><span class="hljs-meta">@Configuration</span><br><span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">AppConfig</span> &#123;<br><br>    <span class="hljs-meta">@Bean</span><br>    <span class="hljs-keyword">public</span> MyBean <span class="hljs-title function_">myBean</span><span class="hljs-params">()</span> &#123;<br>        <span class="hljs-keyword">return</span> <span class="hljs-keyword">new</span> <span class="hljs-title class_"><code class="language-hljs java"><span class="hljs-meta">@Configuration</span><br><span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">AppConfig</span> &#123;<br><br>    <span class="hljs-meta">@Bean</span><br>    <span class="hljs-keyword">public</span> MyBean <span class="hljs-title function_">myBean</span><span class="hljs-params">()</span> &#123;<br>        <span class="hljs-keyword">return</span> <span class="hljs-keyword">new</span> <span class="hljs-title class_">MyBean</span>();<br>    &#125;<br>&#125;<br></code></pre></td></tr></table></figure></div>
 </li>
 <li><p><strong>使用条件注解</strong>：</p>
 <ul>
@@ -429,7 +481,7 @@
 <li>常用的条件注解包括 <code>@ConditionalOnClass</code>、<code>@ConditionalOnMissingBean</code>、<code>@ConditionalOnProperty</code> 等。</li>
 </ul>
 <p><strong>示例</strong>：</p>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">@Configuration</span></span><br><span class="line"><span class="meta">@ConditionalOnClass(name = &quot;com.example.SomeClass&quot;)</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">ConditionalConfig</span> &#123;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@Bean</span></span><br><span class="line">    <span class="keyword">public</span> MyConditionalBean <span class="title function_">myConditionalBean</span><span class="params">()</span> &#123;</span><br><span class="line">        <span class="keyword">return</span> <span class="keyword">new</span> <span class="title class_">MyConditionalBean</span>();</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="JAVA"><figure class="iseeu highlight /java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre class=" language-hljs java"><span class="hljs-meta">@Configuration</span><br><span class="hljs-meta">@ConditionalOnClass(name = &quot;com.example.SomeClass&quot;)</span><br><span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">ConditionalConfig</span> &#123;<br><br>    <span class="hljs-meta">@Bean</span><br>    <span class="hljs-keyword">public</span> MyConditionalBean <span class="hljs-title function_">myConditionalBean</span><span class="hljs-params">()</span> &#123;<br>        <span class="hljs-keyword">return</span> <span class="hljs-keyword">new</span> <span class="hljs-title class_"><code class="language-hljs java"><span class="hljs-meta">@Configuration</span><br><span class="hljs-meta">@ConditionalOnClass(name = &quot;com.example.SomeClass&quot;)</span><br><span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">ConditionalConfig</span> &#123;<br><br>    <span class="hljs-meta">@Bean</span><br>    <span class="hljs-keyword">public</span> MyConditionalBean <span class="hljs-title function_">myConditionalBean</span><span class="hljs-params">()</span> &#123;<br>        <span class="hljs-keyword">return</span> <span class="hljs-keyword">new</span> <span class="hljs-title class_">MyConditionalBean</span>();<br>    &#125;<br>&#125;<br></code></pre></td></tr></table></figure></div>
 </li>
 <li><p><strong>使用 <code>@Component</code> 注解及其派生注解</strong>：</p>
 <ul>
@@ -437,7 +489,7 @@
 <li>这些组件类会通过组件扫描机制自动注册为 Spring Bean。</li>
 </ul>
 <p><strong>示例</strong>：</p>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">@Service</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">MyService</span> &#123;</span><br><span class="line">    <span class="comment">// 服务逻辑</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="JAVA"><figure class="iseeu highlight /java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre class=" language-hljs java"><span class="hljs-meta">@Service</span><br><span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">MyService</span> &#123;<br>    <span class="hljs-comment"><code class="language-hljs java"><span class="hljs-meta">@Service</span><br><span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">MyService</span> &#123;<br>    <span class="hljs-comment">// 服务逻辑</span><br>&#125;<br></code></pre></td></tr></table></figure></div>
 </li>
 <li><p><strong>使用 <code>@ComponentScan</code> 注解</strong>：</p>
 <ul>
@@ -445,14 +497,14 @@
 <li>默认情况下，Spring Boot 会扫描启动类所在包及其子包。</li>
 </ul>
 <p><strong>示例</strong>：</p>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">@SpringBootApplication</span></span><br><span class="line"><span class="meta">@ComponentScan(basePackages = &quot;com.example&quot;)</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">Application</span> &#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String[] args)</span> &#123;</span><br><span class="line">        SpringApplication.run(Application.class, args);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="JAVA"><figure class="iseeu highlight /java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre class=" language-hljs java"><span class="hljs-meta">@SpringBootApplication</span><br><span class="hljs-meta">@ComponentScan(basePackages = &quot;com.example&quot;)</span><br><span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">Application</span> &#123;<br>    <span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title function_">main</span><span class="hljs-params"><code class="language-hljs java"><span class="hljs-meta">@SpringBootApplication</span><br><span class="hljs-meta">@ComponentScan(basePackages = &quot;com.example&quot;)</span><br><span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">Application</span> &#123;<br>    <span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title function_">main</span><span class="hljs-params">(String[] args)</span> &#123;<br>        SpringApplication.run(Application.class, args);<br>    &#125;<br>&#125;<br></code></pre></td></tr></table></figure></div>
 </li>
 <li><p><strong>使用 <code>@Import</code> 注解</strong>：</p>
 <ul>
 <li><code>@Import</code> 注解用于导入其他配置类或组件类。</li>
 </ul>
 <p><strong>示例</strong>：</p>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">@SpringBootApplication</span></span><br><span class="line"><span class="meta">@Import(&#123;ConfigA.class, ConfigB.class&#125;)</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">Application</span> &#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String[] args)</span> &#123;</span><br><span class="line">        SpringApplication.run(Application.class, args);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li>
+<div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="JAVA"><figure class="iseeu highlight /java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre class=" language-hljs java"><span class="hljs-meta">@SpringBootApplication</span><br><span class="hljs-meta">@Import(&#123;ConfigA.class, ConfigB.class&#125;)</span><br><span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">Application</span> &#123;<br>    <span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title function_">main</span><span class="hljs-params"><code class="language-hljs java"><span class="hljs-meta">@SpringBootApplication</span><br><span class="hljs-meta">@Import(&#123;ConfigA.class, ConfigB.class&#125;)</span><br><span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">Application</span> &#123;<br>    <span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title function_">main</span><span class="hljs-params">(String[] args)</span> &#123;<br>        SpringApplication.run(Application.class, args);<br>    &#125;<br>&#125;<br></code></pre></td></tr></table></figure></div></li>
 </ol>
 <h5 id="自动配置的优点"><a href="#自动配置的优点" class="headerlink" title="自动配置的优点"></a>自动配置的优点</h5><ol>
 <li><strong>简化配置</strong>：通过自动配置，开发者无需手动配置常见的 Spring Bean，大大简化了应用程序的配置工作。</li>
@@ -469,7 +521,7 @@
 <h3 id="18-共享配置"><a href="#18-共享配置" class="headerlink" title="18.共享配置"></a>18.共享配置</h3><p>1.引入依赖</p>
 <p>2.写bootstrap.yaml文件，进行nacos基础访问配置与要拉取的配置文件</p>
 <p>3.写application.yaml文件，完成配置文件中变量设置、服务端口号设置、特殊配置（feign配置）。</p>
-<h3 id="19-读取配置类数据"><a href="#19-读取配置类数据" class="headerlink" title="19.读取配置类数据"></a>19.读取配置类数据</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">@Configuration</span></span><br><span class="line"><span class="meta">@ConfigurationProperties(prefix = &quot;mail&quot;)</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">ConfigProperties</span> &#123;</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">private</span> String hostName;</span><br><span class="line">    <span class="keyword">private</span> <span class="type">int</span> port;</span><br><span class="line">    <span class="keyword">private</span> String from;</span><br><span class="line"> </span><br><span class="line">    <span class="comment">// standard getters and setters</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h3 id="19-读取配置类数据"><a href="#19-读取配置类数据" class="headerlink" title="19.读取配置类数据"></a>19.读取配置类数据</h3><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="JAVA"><figure class="iseeu highlight /java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre class=" language-hljs java"><span class="hljs-meta">@Configuration</span><br><span class="hljs-meta">@ConfigurationProperties(prefix = &quot;mail&quot;)</span><br><span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">ConfigProperties</span> &#123;<br>    <br>    <span class="hljs-keyword">private</span> String hostName;<br>    <span class="hljs-keyword">private</span> <span class="hljs-type">int</span> port;<br>    <span class="hljs-keyword">private</span> String from;<br> <br>    <span class="hljs-comment"><code class="language-hljs java"><span class="hljs-meta">@Configuration</span><br><span class="hljs-meta">@ConfigurationProperties(prefix = &quot;mail&quot;)</span><br><span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">ConfigProperties</span> &#123;<br>    <br>    <span class="hljs-keyword">private</span> String hostName;<br>    <span class="hljs-keyword">private</span> <span class="hljs-type">int</span> port;<br>    <span class="hljs-keyword">private</span> String from;<br> <br>    <span class="hljs-comment">// standard getters and setters</span><br>&#125;<br></code></pre></td></tr></table></figure></div>
 
 <p>@ConfigurationProperties最适用于所有具有相同前缀的分层属性，用于将配置文件中mail开头的属性绑定到POJO中特点和用途：</p>
 <ol>
@@ -486,7 +538,7 @@
 <li><p><strong>显式定义 Bean</strong>：</p>
 <ul>
 <li><p><code>@Configuration</code>：允许通过 @Bean 方法显式地定义和配置 Spring Bean。每个 @Bean 方法的返回值会被 Spring 容器管理。</p>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">@Configuration</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">AppConfig</span> &#123;</span><br><span class="line">    <span class="meta">@Bean</span></span><br><span class="line">    <span class="keyword">public</span> MyService <span class="title function_">myService</span><span class="params">()</span> &#123;</span><br><span class="line">        <span class="keyword">return</span> <span class="keyword">new</span> <span class="title class_">MyServiceImpl</span>();</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="JAVA"><figure class="iseeu highlight /java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre class=" language-hljs java"><span class="hljs-meta">@Configuration</span><br><span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">AppConfig</span> &#123;<br>    <span class="hljs-meta">@Bean</span><br>    <span class="hljs-keyword">public</span> MyService <span class="hljs-title function_">myService</span><span class="hljs-params">()</span> &#123;<br>        <span class="hljs-keyword">return</span> <span class="hljs-keyword">new</span> <span class="hljs-title class_"><code class="language-hljs java"><span class="hljs-meta">@Configuration</span><br><span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">AppConfig</span> &#123;<br>    <span class="hljs-meta">@Bean</span><br>    <span class="hljs-keyword">public</span> MyService <span class="hljs-title function_">myService</span><span class="hljs-params">()</span> &#123;<br>        <span class="hljs-keyword">return</span> <span class="hljs-keyword">new</span> <span class="hljs-title class_">MyServiceImpl</span>();<br>    &#125;<br>&#125;<br></code></pre></td></tr></table></figure></div>
 </li>
 <li><p>**<code>@Component</code>**：没有提供显式定义 Bean 的机制，类本身只是作为一个组件被 Spring 容器管理。</p>
 </li>
@@ -495,7 +547,7 @@
 <li><p><strong>Bean 配置和依赖注入</strong>：</p>
 <ul>
 <li><p><code>@Configuration</code>：可以在配置类中定义多个 @Bean 方法，Bean 方法之间可以通过方法调用实现依赖注入，提供高度灵活的 Bean 配置。</p>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">@Configuration</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">AppConfig</span> &#123;</span><br><span class="line">    <span class="meta">@Bean</span></span><br><span class="line">    <span class="keyword">public</span> MyService <span class="title function_">myService</span><span class="params">()</span> &#123;</span><br><span class="line">        <span class="keyword">return</span> <span class="keyword">new</span> <span class="title class_">MyServiceImpl</span>();</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@Bean</span></span><br><span class="line">    <span class="keyword">public</span> MyController <span class="title function_">myController</span><span class="params">(MyService myService)</span> &#123;</span><br><span class="line">        <span class="keyword">return</span> <span class="keyword">new</span> <span class="title class_">MyController</span>(myService);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="JAVA"><figure class="iseeu highlight /java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre class=" language-hljs java"><span class="hljs-meta">@Configuration</span><br><span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">AppConfig</span> &#123;<br>    <span class="hljs-meta">@Bean</span><br>    <span class="hljs-keyword">public</span> MyService <span class="hljs-title function_">myService</span><span class="hljs-params">()</span> &#123;<br>        <span class="hljs-keyword">return</span> <span class="hljs-keyword">new</span> <span class="hljs-title class_">MyServiceImpl</span>();<br>    &#125;<br><br>    <span class="hljs-meta">@Bean</span><br>    <span class="hljs-keyword">public</span> MyController <span class="hljs-title function_">myController</span><span class="hljs-params">(MyService myService)</span> &#123;<br>        <span class="hljs-keyword">return</span> <span class="hljs-keyword">new</span> <span class="hljs-title class_"><code class="language-hljs java"><span class="hljs-meta">@Configuration</span><br><span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">AppConfig</span> &#123;<br>    <span class="hljs-meta">@Bean</span><br>    <span class="hljs-keyword">public</span> MyService <span class="hljs-title function_">myService</span><span class="hljs-params">()</span> &#123;<br>        <span class="hljs-keyword">return</span> <span class="hljs-keyword">new</span> <span class="hljs-title class_">MyServiceImpl</span>();<br>    &#125;<br><br>    <span class="hljs-meta">@Bean</span><br>    <span class="hljs-keyword">public</span> MyController <span class="hljs-title function_">myController</span><span class="hljs-params">(MyService myService)</span> &#123;<br>        <span class="hljs-keyword">return</span> <span class="hljs-keyword">new</span> <span class="hljs-title class_">MyController</span>(myService);<br>    &#125;<br>&#125;<br></code></pre></td></tr></table></figure></div>
 </li>
 <li><p>**<code>@Component</code>**：只能通过字段注入、构造器注入或 setter 注入来注入依赖，无法在类内部以方法调用的形式注入依赖。</p>
 </li>
@@ -504,7 +556,7 @@
 <li><p><strong>配置类的代理增强</strong>：</p>
 <ul>
 <li><p><code>@Configuration</code>：Spring 容器会为 @Configuration 类生成一个代理类，以确保 @Bean 方法的调用是通过 Spring 容器的，这样可以保证每个 Bean 是单例的，即使 @Bean 方法被多次调用。</p>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">@Configuration</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">AppConfig</span> &#123;</span><br><span class="line">    <span class="meta">@Bean</span></span><br><span class="line">    <span class="keyword">public</span> MyService <span class="title function_">myService</span><span class="params">()</span> &#123;</span><br><span class="line">        <span class="keyword">return</span> <span class="keyword">new</span> <span class="title class_">MyServiceImpl</span>();</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@Bean</span></span><br><span class="line">    <span class="keyword">public</span> AnotherService <span class="title function_">anotherService</span><span class="params">()</span> &#123;</span><br><span class="line">        <span class="comment">// 即使这里调用 myService() 方法，也会返回同一个 MyService 实例</span></span><br><span class="line">        <span class="keyword">return</span> <span class="keyword">new</span> <span class="title class_">AnotherService</span>(myService());</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="JAVA"><figure class="iseeu highlight /java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre class=" language-hljs java"><span class="hljs-meta">@Configuration</span><br><span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">AppConfig</span> &#123;<br>    <span class="hljs-meta">@Bean</span><br>    <span class="hljs-keyword">public</span> MyService <span class="hljs-title function_">myService</span><span class="hljs-params">()</span> &#123;<br>        <span class="hljs-keyword">return</span> <span class="hljs-keyword">new</span> <span class="hljs-title class_">MyServiceImpl</span>();<br>    &#125;<br><br>    <span class="hljs-meta">@Bean</span><br>    <span class="hljs-keyword">public</span> AnotherService <span class="hljs-title function_">anotherService</span><span class="hljs-params">()</span> &#123;<br>        <span class="hljs-comment">// 即使这里调用 myService() 方法，也会返回同一个 MyService 实例</span><br>        <span class="hljs-keyword">return</span> <span class="hljs-keyword">new</span> <span class="hljs-title class_"><code class="language-hljs java"><span class="hljs-meta">@Configuration</span><br><span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">AppConfig</span> &#123;<br>    <span class="hljs-meta">@Bean</span><br>    <span class="hljs-keyword">public</span> MyService <span class="hljs-title function_">myService</span><span class="hljs-params">()</span> &#123;<br>        <span class="hljs-keyword">return</span> <span class="hljs-keyword">new</span> <span class="hljs-title class_">MyServiceImpl</span>();<br>    &#125;<br><br>    <span class="hljs-meta">@Bean</span><br>    <span class="hljs-keyword">public</span> AnotherService <span class="hljs-title function_">anotherService</span><span class="hljs-params">()</span> &#123;<br>        <span class="hljs-comment">// 即使这里调用 myService() 方法，也会返回同一个 MyService 实例</span><br>        <span class="hljs-keyword">return</span> <span class="hljs-keyword">new</span> <span class="hljs-title class_">AnotherService</span>(myService());<br>    &#125;<br>&#125;<br></code></pre></td></tr></table></figure></div>
 </li>
 <li><p>**<code>@Component</code>**：没有这种机制，因此如果在一个组件内部调用创建其他 Bean 的方法，每次调用都会返回一个新的实例，而不是单例。</p>
 </li>
@@ -559,370 +611,344 @@
 <h3 id="27-分布式事务"><a href="#27-分布式事务" class="headerlink" title="27.分布式事务"></a>27.分布式事务</h3><p>1，事务协调者独立，要搭建事务协调者</p>
 <p>2，tm，rm要和tc交互，引入seata依赖，配置到tc的连接。</p>
 
-                </div>
                 
+              </div>
+            
+            <hr/>
+            <div>
+              <div class="post-metas my-3">
+  
+  
+</div>
 
-                <div class="post-bottom-tags-and-share border-box">
-                    <div>
-                        
-                    </div>
-                    <div>
-                        
-                    </div>
-                </div>
 
-                
+              
+  
 
-                
-                    <div class="post-nav border-box">
-                        
-                            <div class="prev-post">
-                                <a class="prev"
-                                   rel="prev"
-                                   href="/2024/06/20/ceshi/"
-                                   title="ceshi"
-                                >
-                                    <span class="left arrow-icon flex-center">
-                                        <i class="fas fa-chevron-left"></i>
-                                    </span>
-                                    <span class="title flex-center">
-                                        <span class="post-nav-title-item text-ellipsis">ceshi</span>
-                                        <span class="post-nav-item">上一篇</span>
-                                    </span>
-                                </a>
-                            </div>
-                        
-                        
-                            <div class="next-post">
-                                <a class="next"
-                                   rel="next"
-                                   href="/2024/06/20/mainpage/"
-                                   title="mainpage"
-                                >
-                                    <span class="title flex-center">
-                                        <span class="post-nav-title-item text-ellipsis">mainpage</span>
-                                        <span class="post-nav-item">下一篇</span>
-                                    </span>
-                                    <span class="right arrow-icon flex-center">
-                                        <i class="fas fa-chevron-right"></i>
-                                    </span>
-                                </a>
-                            </div>
-                        
-                    </div>
-                
+  <div class="license-box my-3">
+    <div class="license-title">
+      <div>ceshi</div>
+      <div>https://onenameink.github.io/2024/06/20/开发日记/</div>
+    </div>
+    <div class="license-meta">
+      
+        <div class="license-meta-item">
+          <div>作者</div>
+          <div>Yiming Fang</div>
+        </div>
+      
+      
+        <div class="license-meta-item license-meta-date">
+          <div>发布于</div>
+          <div>2024年6月20日</div>
+        </div>
+      
+      
+      
+        <div class="license-meta-item">
+          <div>许可协议</div>
+          <div>
+            
+              
+              
+                <a class="print-no-link" target="_blank" href="https://creativecommons.org/licenses/by/4.0/">
+                  <span class="hint--top hint--rounded" aria-label="BY - 署名">
+                    <i class="iconfont icon-by"></i>
+                  </span>
+                </a>
+              
+            
+          </div>
+        </div>
+      
+    </div>
+    <div class="license-icon iconfont"></div>
+  </div>
 
-                
+
+
+              
+                <div class="post-prevnext my-3">
+                  <article class="post-prev col-6">
                     
-
-
-
-
-
-
-                
+                    
+                      <a href="/2024/06/20/ceshi/" title="ceshi">
+                        <i class="iconfont icon-arrowleft"></i>
+                        <span class="hidden-mobile">ceshi</span>
+                        <span class="visible-mobile">上一篇</span>
+                      </a>
+                    
+                  </article>
+                  <article class="post-next col-6">
+                    
+                    
+                      <a href="/2024/06/20/mainpage/" title="mainpage">
+                        <span class="hidden-mobile">mainpage</span>
+                        <span class="visible-mobile">下一篇</span>
+                        <i class="iconfont icon-arrowright"></i>
+                      </a>
+                    
+                  </article>
+                </div>
+              
             </div>
-        </div>
 
-        
-            <div class="pc-post-toc right-toc">
-                <div class="post-toc-wrap border-box">
-    <div class="post-toc border-box">
-        <!-- use hexo-blog-encrypt -->
-        <ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-ComponentScan"><span class="nav-number">1.</span> <span class="nav-text">1. @ComponentScan</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%90%AB%E4%B9%89"><span class="nav-number">1.1.</span> <span class="nav-text">含义</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E4%BD%9C%E7%94%A8"><span class="nav-number">1.2.</span> <span class="nav-text">作用</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-MapperScan"><span class="nav-number">2.</span> <span class="nav-text">2. @MapperScan</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%90%AB%E4%B9%89-1"><span class="nav-number">2.1.</span> <span class="nav-text">含义</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E4%BD%9C%E7%94%A8-1"><span class="nav-number">2.2.</span> <span class="nav-text">作用</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#MapperScan-%E8%AF%86%E5%88%AB%E5%92%8C%E6%B3%A8%E5%85%A5%E7%9A%84%E6%9C%BA%E5%88%B6"><span class="nav-number">2.3.</span> <span class="nav-text">@MapperScan 识别和注入的机制</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-MyBatis%E9%80%86%E5%90%91%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7%E7%94%9F%E6%88%90mapper"><span class="nav-number">3.</span> <span class="nav-text">3.MyBatis逆向开发工具生成mapper</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#4-threadlocal"><span class="nav-number">4.</span> <span class="nav-text">4.threadlocal</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#5-AllArgsConstructor"><span class="nav-number">5.</span> <span class="nav-text">5@AllArgsConstructor</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#6-%E8%BF%9C%E7%A8%8B%E8%B0%83%E7%94%A8"><span class="nav-number">6.</span> <span class="nav-text">6.远程调用</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E8%BF%9E%E6%8E%A5%E6%B1%A0"><span class="nav-number">6.1.</span> <span class="nav-text">连接池</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5"><span class="nav-number">6.2.</span> <span class="nav-text">最佳实践</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#7-%E7%BD%91%E5%85%B3%E7%9A%84%E7%99%BB%E5%BD%95%E6%A0%A1%E9%AA%8C%E6%80%9D%E8%B7%AF"><span class="nav-number">7.</span> <span class="nav-text">7.网关的登录校验思路</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#8-ConfigurationProperties%E6%B3%A8%E8%A7%A3%E6%8A%A5%E9%94%99"><span class="nav-number">8.</span> <span class="nav-text">8.ConfigurationProperties注解报错</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#9-nginx"><span class="nav-number">9.</span> <span class="nav-text">9.nginx</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#10-gateway%E4%B8%8Emvc"><span class="nav-number">10.</span> <span class="nav-text">10.gateway与mvc</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#11-%E5%8C%BF%E5%90%8D%E5%86%85%E9%83%A8%E7%B1%BB"><span class="nav-number">11.</span> <span class="nav-text">11.匿名内部类</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#12-Feign"><span class="nav-number">12.</span> <span class="nav-text">12.Feign</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#13-%E5%BE%AE%E6%9C%8D%E5%8A%A1%E4%B8%AD%E7%99%BB%E5%BD%95%E9%AA%8C%E8%AF%81%E4%B8%8E%E4%BF%A1%E6%81%AF%E4%BC%A0%E9%80%92%E7%9A%84%E6%8B%A6%E6%88%AA%E5%99%A8"><span class="nav-number">13.</span> <span class="nav-text">13.微服务中登录验证与信息传递的拦截器</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#14-javaBean"><span class="nav-number">14.</span> <span class="nav-text">14.javaBean</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#Java-Bean-%E7%9A%84%E7%89%B9%E5%BE%81"><span class="nav-number">14.0.1.</span> <span class="nav-text">Java Bean 的特征</span></a></li></ol></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#15-%E4%BB%80%E4%B9%88%E6%98%AF-Spring-Bean"><span class="nav-number">15.</span> <span class="nav-text">15.什么是 Spring Bean</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%A3%B0%E6%98%8E-Spring-Bean-%E7%9A%84%E6%96%B9%E5%BC%8F"><span class="nav-number">15.1.</span> <span class="nav-text">声明 Spring Bean 的方式</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#16-spring-factories"><span class="nav-number">16.</span> <span class="nav-text">16.spring.factories</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#%E4%B8%BB%E8%A6%81%E5%8C%BA%E5%88%AB%E5%92%8C%E5%8E%9F%E5%9B%A0"><span class="nav-number">16.0.1.</span> <span class="nav-text">主要区别和原因</span></a></li></ol></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#17-%E8%87%AA%E5%8A%A8%E9%85%8D%E7%BD%AE"><span class="nav-number">17.</span> <span class="nav-text">17.自动配置</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#%E8%87%AA%E5%8A%A8%E9%85%8D%E7%BD%AE%E7%9A%84%E5%AE%9E%E7%8E%B0%E6%96%B9%E5%BC%8F"><span class="nav-number">17.0.1.</span> <span class="nav-text">自动配置的实现方式</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#%E8%87%AA%E5%8A%A8%E9%85%8D%E7%BD%AE%E7%9A%84%E4%BC%98%E7%82%B9"><span class="nav-number">17.0.2.</span> <span class="nav-text">自动配置的优点</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#%E8%87%AA%E5%8A%A8%E9%85%8D%E7%BD%AE%E7%9A%84%E6%80%BB%E7%BB%93"><span class="nav-number">17.0.3.</span> <span class="nav-text">自动配置的总结</span></a></li></ol></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#18-%E5%85%B1%E4%BA%AB%E9%85%8D%E7%BD%AE"><span class="nav-number">18.</span> <span class="nav-text">18.共享配置</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#19-%E8%AF%BB%E5%8F%96%E9%85%8D%E7%BD%AE%E7%B1%BB%E6%95%B0%E6%8D%AE"><span class="nav-number">19.</span> <span class="nav-text">19.读取配置类数据</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#20-Data"><span class="nav-number">20.</span> <span class="nav-text">20.@Data</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#21-Configuration-%E7%9B%B8%E5%AF%B9%E4%BA%8E-Component"><span class="nav-number">21.</span> <span class="nav-text">21.@Configuration 相对于 @Component</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E9%80%89%E6%8B%A9%E6%8C%87%E5%8D%97"><span class="nav-number">21.1.</span> <span class="nav-text">选择指南</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#22-bootstrap%EF%BC%9A%E5%92%8Cnacos%E5%BB%BA%E7%AB%8B%E8%BF%9E%E6%8E%A5%E3%80%82"><span class="nav-number">22.</span> <span class="nav-text">22.bootstrap：和nacos建立连接。</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#23-%E8%A7%A3%E5%86%B3%E6%9C%8D%E5%8A%A1%E9%9B%AA%E5%B4%A9%EF%BC%9A"><span class="nav-number">23.</span> <span class="nav-text">23.解决服务雪崩：</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#24-sentinel%E4%BD%BF%E7%94%A8"><span class="nav-number">24.</span> <span class="nav-text">24.sentinel使用</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#25-Feign%E7%9A%84Fallback"><span class="nav-number">25.</span> <span class="nav-text">25.Feign的Fallback</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#26-%E9%99%90%E6%B5%81%E4%B8%8E%E7%86%94%E6%96%AD"><span class="nav-number">26.</span> <span class="nav-text">26.限流与熔断</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#27-%E5%88%86%E5%B8%83%E5%BC%8F%E4%BA%8B%E5%8A%A1"><span class="nav-number">27.</span> <span class="nav-text">27.分布式事务</span></a></li></ol>
-    </div>
-</div>
-
-            </div>
-        
-    </div>
-</div>
-
-
-                
-            </div>
-        </div>
-
-        <div class="page-main-content-bottom border-box">
             
-<footer class="footer border-box">
-    <div class="copyright-info info-item">
-        &copy;&nbsp;<span>2024</span>&nbsp;-&nbsp;2024
-        
-            &nbsp;<i class="fas fa-heart icon-animate"></i>&nbsp;&nbsp;<a href="/">INK</a>
-        
+          </article>
+        </div>
+      </div>
     </div>
 
-    <div class="theme-info info-item">
-        由&nbsp;<a target="_blank" href="https://hexo.io">Hexo</a>&nbsp;驱动&nbsp;&&nbsp;主题&nbsp;<a class="keep-version" target="_blank" href="https://github.com/XPoet/hexo-theme-keep">Keep</a>
-    </div>
-
-    
-        
-        <div class="deploy-info info-item">
-            
-            本站由 <span class="tooltip" data-tooltip-content="GitHub Pages"><img src="/images/brands/github.png"></span> 提供部署服务
-            
-        </div>
-    
-
-    
-        <div class="count-info info-item">
-            
-
-            
-                <span class="count-item border-box uv">
-                    <span class="item-type border-box">访客数</span>
-                    <span class="item-value border-box uv" id="busuanzi_value_site_uv"></span>
-                </span>
-            
-
-            
-                <span class="count-item border-box pv">
-                    <span class="item-type border-box">访问量</span>
-                    <span class="item-value border-box pv" id="busuanzi_value_site_pv"></span>
-                </span>
-            
-        </div>
-    
-
-    
-</footer>
-
-        </div>
-    </div>
-
-    <!-- post tools -->
-    
-        <div class="post-tools right-toc">
-            <div class="post-tools-container border-box">
-    <ul class="tools-list border-box">
-        <!-- PC TOC show toggle -->
-        
-            <li class="tools-item flex-center toggle-show-toc">
-                <i class="fas fa-list"></i>
-            </li>
-        
-
-        <!-- PC go comment -->
-        
-
-        <!-- PC full screen -->
-        <li class="tools-item flex-center full-screen">
-            <i class="fa-solid fa-expand"></i>
-        </li>
-    </ul>
-</div>
-
-        </div>
-    
-
-    <!-- side tools -->
-    <div class="side-tools">
-        <div class="side-tools-container border-box ">
-    <ul class="side-tools-list side-tools-show-handle border-box">
-        <li class="tools-item tool-font-adjust-plus flex-center">
-            <i class="fas fa-search-plus"></i>
-        </li>
-
-        <li class="tools-item tool-font-adjust-minus flex-center">
-            <i class="fas fa-search-minus"></i>
-        </li>
-
-        <li class="tools-item tool-toggle-theme-mode flex-center">
-            <i class="fas fa-moon"></i>
-        </li>
-
-        <!-- rss -->
-        
-
-        <li class="tools-item tool-scroll-to-bottom flex-center">
-            <i class="fas fa-arrow-down"></i>
-        </li>
-    </ul>
-
-    <ul class="exposed-tools-list border-box">
-        
-            <li class="tools-item toggle-show-toc-tablet flex-center">
-                <i class="fas fa-list"></i>
-            </li>
-        
-
-        
-
-        <li class="tools-item tool-toggle-show flex-center">
-            <i class="fas fa-cog fa-spin"></i>
-        </li>
-
-        <li class="tools-item tool-scroll-to-top flex-center show-arrow">
-            <i class="arrow fas fa-arrow-up"></i>
-            <span class="percent"></span>
-        </li>
-    </ul>
-</div>
-
-    </div>
-
-    <!-- image mask -->
-    <div class="zoom-in-image-mask">
-    <img class="zoom-in-image">
+    <div class="side-col d-none d-lg-block col-lg-2">
+      
+  <aside class="sidebar" style="margin-left: -1rem">
+    <div id="toc">
+  <p class="toc-header">
+    <i class="iconfont icon-list"></i>
+    <span>目录</span>
+  </p>
+  <div class="toc-body" id="toc-body"></div>
 </div>
 
 
-    <!-- local search -->
-    
-        <div class="search-pop-overlay">
-    <div class="popup search-popup">
-        <div class="search-header">
-          <span class="search-input-field-pre">
-            <i class="fas fa-keyboard"></i>
-          </span>
-            <div class="search-input-container">
-                <input autocomplete="off"
-                       autocorrect="off"
-                       autocapitalize="off"
-                       placeholder="搜索..."
-                       spellcheck="false"
-                       type="search"
-                       class="search-input"
-                >
-            </div>
-            <span class="close-popup-btn">
-                <i class="fas fa-times"></i>
-            </span>
-        </div>
-        <div id="search-result">
-            <div id="no-result">
-                <i class="fas fa-spinner fa-pulse fa-5x fa-fw"></i>
-            </div>
-        </div>
+
+  </aside>
+
+
     </div>
+  </div>
+</div>
+
+
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+
+
+
+
+    
+
+    
+      <a id="scroll-top-button" aria-label="TOP" href="#" role="button">
+        <i class="iconfont icon-arrowup" aria-hidden="true"></i>
+      </a>
+    
+
+    
+      <div class="modal fade" id="modalSearch" tabindex="-1" role="dialog" aria-labelledby="ModalLabel"
+     aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h4 class="modal-title w-100 font-weight-bold">搜索</h4>
+        <button type="button" id="local-search-close" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body mx-3">
+        <div class="md-form mb-5">
+          <input type="text" id="local-search-input" class="form-control validate">
+          <label data-error="x" data-success="v" for="local-search-input">关键词</label>
+        </div>
+        <div class="list-group" id="local-search-result"></div>
+      </div>
+    </div>
+  </div>
 </div>
 
     
 
-    <!-- tablet toc -->
     
-        <div class="tablet-post-toc-mask">
-            <div class="tablet-post-toc">
-                <div class="post-toc-wrap border-box">
-    <div class="post-toc border-box">
-        <!-- use hexo-blog-encrypt -->
-        <ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-ComponentScan"><span class="nav-number">1.</span> <span class="nav-text">1. @ComponentScan</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%90%AB%E4%B9%89"><span class="nav-number">1.1.</span> <span class="nav-text">含义</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E4%BD%9C%E7%94%A8"><span class="nav-number">1.2.</span> <span class="nav-text">作用</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-MapperScan"><span class="nav-number">2.</span> <span class="nav-text">2. @MapperScan</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%90%AB%E4%B9%89-1"><span class="nav-number">2.1.</span> <span class="nav-text">含义</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E4%BD%9C%E7%94%A8-1"><span class="nav-number">2.2.</span> <span class="nav-text">作用</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#MapperScan-%E8%AF%86%E5%88%AB%E5%92%8C%E6%B3%A8%E5%85%A5%E7%9A%84%E6%9C%BA%E5%88%B6"><span class="nav-number">2.3.</span> <span class="nav-text">@MapperScan 识别和注入的机制</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-MyBatis%E9%80%86%E5%90%91%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7%E7%94%9F%E6%88%90mapper"><span class="nav-number">3.</span> <span class="nav-text">3.MyBatis逆向开发工具生成mapper</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#4-threadlocal"><span class="nav-number">4.</span> <span class="nav-text">4.threadlocal</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#5-AllArgsConstructor"><span class="nav-number">5.</span> <span class="nav-text">5@AllArgsConstructor</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#6-%E8%BF%9C%E7%A8%8B%E8%B0%83%E7%94%A8"><span class="nav-number">6.</span> <span class="nav-text">6.远程调用</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E8%BF%9E%E6%8E%A5%E6%B1%A0"><span class="nav-number">6.1.</span> <span class="nav-text">连接池</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5"><span class="nav-number">6.2.</span> <span class="nav-text">最佳实践</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#7-%E7%BD%91%E5%85%B3%E7%9A%84%E7%99%BB%E5%BD%95%E6%A0%A1%E9%AA%8C%E6%80%9D%E8%B7%AF"><span class="nav-number">7.</span> <span class="nav-text">7.网关的登录校验思路</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#8-ConfigurationProperties%E6%B3%A8%E8%A7%A3%E6%8A%A5%E9%94%99"><span class="nav-number">8.</span> <span class="nav-text">8.ConfigurationProperties注解报错</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#9-nginx"><span class="nav-number">9.</span> <span class="nav-text">9.nginx</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#10-gateway%E4%B8%8Emvc"><span class="nav-number">10.</span> <span class="nav-text">10.gateway与mvc</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#11-%E5%8C%BF%E5%90%8D%E5%86%85%E9%83%A8%E7%B1%BB"><span class="nav-number">11.</span> <span class="nav-text">11.匿名内部类</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#12-Feign"><span class="nav-number">12.</span> <span class="nav-text">12.Feign</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#13-%E5%BE%AE%E6%9C%8D%E5%8A%A1%E4%B8%AD%E7%99%BB%E5%BD%95%E9%AA%8C%E8%AF%81%E4%B8%8E%E4%BF%A1%E6%81%AF%E4%BC%A0%E9%80%92%E7%9A%84%E6%8B%A6%E6%88%AA%E5%99%A8"><span class="nav-number">13.</span> <span class="nav-text">13.微服务中登录验证与信息传递的拦截器</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#14-javaBean"><span class="nav-number">14.</span> <span class="nav-text">14.javaBean</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#Java-Bean-%E7%9A%84%E7%89%B9%E5%BE%81"><span class="nav-number">14.0.1.</span> <span class="nav-text">Java Bean 的特征</span></a></li></ol></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#15-%E4%BB%80%E4%B9%88%E6%98%AF-Spring-Bean"><span class="nav-number">15.</span> <span class="nav-text">15.什么是 Spring Bean</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%A3%B0%E6%98%8E-Spring-Bean-%E7%9A%84%E6%96%B9%E5%BC%8F"><span class="nav-number">15.1.</span> <span class="nav-text">声明 Spring Bean 的方式</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#16-spring-factories"><span class="nav-number">16.</span> <span class="nav-text">16.spring.factories</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#%E4%B8%BB%E8%A6%81%E5%8C%BA%E5%88%AB%E5%92%8C%E5%8E%9F%E5%9B%A0"><span class="nav-number">16.0.1.</span> <span class="nav-text">主要区别和原因</span></a></li></ol></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#17-%E8%87%AA%E5%8A%A8%E9%85%8D%E7%BD%AE"><span class="nav-number">17.</span> <span class="nav-text">17.自动配置</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#%E8%87%AA%E5%8A%A8%E9%85%8D%E7%BD%AE%E7%9A%84%E5%AE%9E%E7%8E%B0%E6%96%B9%E5%BC%8F"><span class="nav-number">17.0.1.</span> <span class="nav-text">自动配置的实现方式</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#%E8%87%AA%E5%8A%A8%E9%85%8D%E7%BD%AE%E7%9A%84%E4%BC%98%E7%82%B9"><span class="nav-number">17.0.2.</span> <span class="nav-text">自动配置的优点</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#%E8%87%AA%E5%8A%A8%E9%85%8D%E7%BD%AE%E7%9A%84%E6%80%BB%E7%BB%93"><span class="nav-number">17.0.3.</span> <span class="nav-text">自动配置的总结</span></a></li></ol></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#18-%E5%85%B1%E4%BA%AB%E9%85%8D%E7%BD%AE"><span class="nav-number">18.</span> <span class="nav-text">18.共享配置</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#19-%E8%AF%BB%E5%8F%96%E9%85%8D%E7%BD%AE%E7%B1%BB%E6%95%B0%E6%8D%AE"><span class="nav-number">19.</span> <span class="nav-text">19.读取配置类数据</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#20-Data"><span class="nav-number">20.</span> <span class="nav-text">20.@Data</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#21-Configuration-%E7%9B%B8%E5%AF%B9%E4%BA%8E-Component"><span class="nav-number">21.</span> <span class="nav-text">21.@Configuration 相对于 @Component</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E9%80%89%E6%8B%A9%E6%8C%87%E5%8D%97"><span class="nav-number">21.1.</span> <span class="nav-text">选择指南</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#22-bootstrap%EF%BC%9A%E5%92%8Cnacos%E5%BB%BA%E7%AB%8B%E8%BF%9E%E6%8E%A5%E3%80%82"><span class="nav-number">22.</span> <span class="nav-text">22.bootstrap：和nacos建立连接。</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#23-%E8%A7%A3%E5%86%B3%E6%9C%8D%E5%8A%A1%E9%9B%AA%E5%B4%A9%EF%BC%9A"><span class="nav-number">23.</span> <span class="nav-text">23.解决服务雪崩：</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#24-sentinel%E4%BD%BF%E7%94%A8"><span class="nav-number">24.</span> <span class="nav-text">24.sentinel使用</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#25-Feign%E7%9A%84Fallback"><span class="nav-number">25.</span> <span class="nav-text">25.Feign的Fallback</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#26-%E9%99%90%E6%B5%81%E4%B8%8E%E7%86%94%E6%96%AD"><span class="nav-number">26.</span> <span class="nav-text">26.限流与熔断</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#27-%E5%88%86%E5%B8%83%E5%BC%8F%E4%BA%8B%E5%8A%A1"><span class="nav-number">27.</span> <span class="nav-text">27.分布式事务</span></a></li></ol>
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+  
+    <div class="footer-content">
+       <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a> <i class="iconfont icon-love"></i> <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a> 
     </div>
+  
+  
+  
+  
 </div>
 
-            </div>
-        </div>
-    
-</main>
+  </footer>
+
+  <!-- Scripts -->
+  
+  <script  src="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.js" ></script>
+  <link  rel="stylesheet" href="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.css" />
+
+  <script>
+    NProgress.configure({"showSpinner":false,"trickleSpeed":100})
+    NProgress.start()
+    window.addEventListener('load', function() {
+      NProgress.done();
+    })
+  </script>
+
+
+<script  src="https://lib.baomitu.com/jquery/3.6.4/jquery.min.js" ></script>
+<script  src="https://lib.baomitu.com/twitter-bootstrap/4.6.1/js/bootstrap.min.js" ></script>
+<script  src="/js/events.js" ></script>
+<script  src="/js/plugins.js" ></script>
+
+
+  <script  src="https://lib.baomitu.com/typed.js/2.0.12/typed.min.js" ></script>
+  <script>
+    (function (window, document) {
+      var typing = Fluid.plugins.typing;
+      var subtitle = document.getElementById('subtitle');
+      if (!subtitle || !typing) {
+        return;
+      }
+      var text = subtitle.getAttribute('data-typed-text');
+      
+        typing(text);
+      
+    })(window, document);
+  </script>
 
 
 
-<!-- common -->
 
-<script src="/js/utils.js"></script>
-
-<script src="/js/header-shrink.js"></script>
-
-<script src="/js/back2top.js"></script>
-
-<script src="/js/toggle-theme.js"></script>
-
-<script src="/js/code-block.js"></script>
-
-<script src="/js/main.js"></script>
-
-<script src="/js/libs/anime.min.js"></script>
-
-
-<!-- local-search -->
-
-    
-<script src="/js/local-search.js"></script>
+  
+    <script  src="/js/img-lazyload.js" ></script>
+  
 
 
 
-<!-- lazyload -->
 
-    
-<script src="/js/lazyload.js"></script>
-
-
-
-<div class="pjax">
-    
-        <!-- post-helper -->
-        
-<script src="/js/post/post-helper.js"></script>
-
-
-        <!-- toc -->
-        
-            
-<script src="/js/post/toc.js"></script>
-
-        
-
-        <!-- copyright-info -->
-        
-
-        <!-- share -->
-        
-    
-
-    <!-- categories page -->
-    
-
-    <!-- links page -->
-    
-
-    <!-- photos page -->
-    
-
-    <!-- tools page -->
-    
-</div>
-
-<!-- mermaid -->
-
-
-<!-- pjax -->
-
-    
-<script src="/js/libs/pjax.min.js"></script>
-
+  
 <script>
-    window.addEventListener('DOMContentLoaded', () => {
-        window.pjax = new Pjax({
-            selectors: [
-                'head title',
-                '.page-container',
-                '.pjax'
-            ],
-            history: true,
-            debug: false,
-            cacheBust: false,
-            timeout: 0,
-            analytics: false,
-            currentUrlFullReload: false,
-            scrollRestoration: false,
-        });
+  Fluid.utils.createScript('https://lib.baomitu.com/tocbot/4.20.1/tocbot.min.js', function() {
+    var toc = jQuery('#toc');
+    if (toc.length === 0 || !window.tocbot) { return; }
+    var boardCtn = jQuery('#board-ctn');
+    var boardTop = boardCtn.offset().top;
 
-        document.addEventListener('pjax:send', () => {
-            KEEP.utils.pjaxProgressBarStart()
-        });
+    window.tocbot.init(Object.assign({
+      tocSelector     : '#toc-body',
+      contentSelector : '.markdown-body',
+      linkClass       : 'tocbot-link',
+      activeLinkClass : 'tocbot-active-link',
+      listClass       : 'tocbot-list',
+      isCollapsedClass: 'tocbot-is-collapsed',
+      collapsibleClass: 'tocbot-is-collapsible',
+      scrollSmooth    : true,
+      includeTitleTags: true,
+      headingsOffset  : -boardTop,
+    }, CONFIG.toc));
+    if (toc.find('.toc-list-item').length > 0) {
+      toc.css('visibility', 'visible');
+    }
 
-        document.addEventListener('pjax:complete', () => {
-            KEEP.utils.pjaxProgressBarEnd()
-            window.pjax.executeScripts(document.querySelectorAll('script[data-pjax], .pjax script'))
-            KEEP.initExecute()
-        });
+    Fluid.events.registerRefreshCallback(function() {
+      if ('tocbot' in window) {
+        tocbot.refresh();
+        var toc = jQuery('#toc');
+        if (toc.length === 0 || !tocbot) {
+          return;
+        }
+        if (toc.find('.toc-list-item').length > 0) {
+          toc.css('visibility', 'visible');
+        }
+      }
     });
+  });
 </script>
 
 
+  <script src=https://lib.baomitu.com/clipboard.js/2.0.11/clipboard.min.js></script>
+
+  <script>Fluid.plugins.codeWidget();</script>
 
 
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/anchor-js/4.3.1/anchor.min.js', function() {
+    window.anchors.options = {
+      placement: CONFIG.anchorjs.placement,
+      visible  : CONFIG.anchorjs.visible
+    };
+    if (CONFIG.anchorjs.icon) {
+      window.anchors.options.icon = CONFIG.anchorjs.icon;
+    }
+    var el = (CONFIG.anchorjs.element || 'h1,h2,h3,h4,h5,h6').split(',');
+    var res = [];
+    for (var item of el) {
+      res.push('.markdown-body > ' + item.trim());
+    }
+    if (CONFIG.anchorjs.placement === 'left') {
+      window.anchors.options.class = 'anchorjs-link-left';
+    }
+    window.anchors.add(res.join(', '));
+
+    Fluid.events.registerRefreshCallback(function() {
+      if ('anchors' in window) {
+        anchors.removeAll();
+        var el = (CONFIG.anchorjs.element || 'h1,h2,h3,h4,h5,h6').split(',');
+        var res = [];
+        for (var item of el) {
+          res.push('.markdown-body > ' + item.trim());
+        }
+        if (CONFIG.anchorjs.placement === 'left') {
+          anchors.options.class = 'anchorjs-link-left';
+        }
+        anchors.add(res.join(', '));
+      }
+    });
+  });
+</script>
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/fancybox/3.5.7/jquery.fancybox.min.js', function() {
+    Fluid.plugins.fancyBox();
+  });
+</script>
+
+
+  <script>Fluid.plugins.imageCaption();</script>
+
+  <script  src="/js/local-search.js" ></script>
+
+
+
+
+
+<!-- 主题的启动项，将它保持在最底部 -->
+<!-- the boot of the theme, keep it at the bottom -->
+<script  src="/js/boot.js" ></script>
+
+
+  
+
+  <noscript>
+    <div class="noscript-warning">博客在允许 JavaScript 运行的环境下浏览效果更佳</div>
+  </noscript>
 </body>
 </html>
